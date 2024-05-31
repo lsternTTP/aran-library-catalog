@@ -1,5 +1,5 @@
 main {
-  background-color: #D9D9D9
+  background-color: #f3d8dc;
 }
 
 ul {
@@ -18,8 +18,4 @@ ul {
   font-size: 12px;
   text-align: justify;
   hyphens: auto;
-}
-
-.title {
-  font-style: italic;
 }

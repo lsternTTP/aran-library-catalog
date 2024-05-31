@@ -6,15 +6,6 @@ import { useState } from "react";
 import Preview from "./Components/Main/Preview.jsx"
 
 export default function App() {
-
-function previewHandler(addToPreview) {
-  setMyPreviews(()=>{
-    return addToPreview;
-  })
-}
-
- const [preview, setMyPreviews]= useState({});
-  
   // initialize request list state
   const [myRequests, setMyRequests] = useState([]);
   console.log("requests", myRequests);
@@ -52,9 +43,9 @@ function previewHandler(addToPreview) {
       <section id="books-and-requests">
         <AllBooks
           bookList={myBooks}
-          addToRequestListHandler={addToRequestListHandler} addToPreview={previewHandler}
+          addToRequestListHandler={addToRequestListHandler}
         ></AllBooks>
-        <Preview book={preview}></Preview>
+        <Preview book={database.catalog[0]}></Preview>
         <AllRequests requestList={myRequests}
           removeList={removeFromRequestsHandler}></AllRequests>
       </section>

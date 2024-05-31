@@ -1,31 +1,4 @@
 #all-requests-list {
-  /* width: 40vw; */
+  width: 30vw;
+  border: 2px solid blue;
 }
-
-p, button {
-  display: inline;
-          margin-right: 10px;
-          }
-
-
-.box {
-  border-bottom: 16.5px solid #F5F5F5;
-     padding: 5px;
-  display: flex;
-  justify-content: space-between;
-     }
-
-.entry {
-  margin: 0 10px;
-}
-
-.bin {
-  background-color: black;
-  width: 20px;
-  color: white;
-  text-align: center;
-       shadow: none;
-       border: none;
-       }
-
-.bin-box {margin-left: 5px;}
