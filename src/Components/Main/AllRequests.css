@@ -1,0 +1,8 @@
+#all-requests-list {
+  background-color: black;
+    width: 30vw;
+    /* padding: 0 30px; */
+    background-color: #D9D9D9;
+    width: 30vw;
+    overflow: scroll;
+  }

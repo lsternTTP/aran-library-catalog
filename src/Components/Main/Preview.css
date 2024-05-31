@@ -1,0 +1,16 @@
+.preview-book-card {
+  width: 30vw;
+  padding: 0 30px;
+  background-color: #D9D9D9;
+  width: 30vw;
+  overflow: scroll;
+}
+
+.preview-book-card>img {
+  width: 280px;
+  height: 400px;
+}
+
+.preview-book-card>h2 {
+  font-size: 15px;
+}
